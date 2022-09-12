@@ -1,9 +1,7 @@
 import "./home.scss";
 
 function Home() {
-  return (
-    <div>Home</div>
-  )
+  return <div className="home-wrap">Home</div>;
 }
 
-export default Home
+export default Home;

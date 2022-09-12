@@ -11,7 +11,7 @@ interface RouterToll {
 }
 
 function routerTool(Com: ComponentType) {
-  return (props: PropsWithChildren<RouterToll>) => {
+  return (props: any) => {
     const paramsId = useParams(); // 获取动态路由的 ID
     const location = useLocation(); // 获取路由的参数 state
     const navigate = useNavigate(); // 跳转路由使用

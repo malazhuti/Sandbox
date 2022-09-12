@@ -28,7 +28,7 @@ function RouterView() {
   };
 
   return (
-    <div>
+    <div className="wrap">
       <Suspense fallback={<div>loading...</div>}>
         <BrowserRouter>
           <Routes>{renderViews(routes)}</Routes>
